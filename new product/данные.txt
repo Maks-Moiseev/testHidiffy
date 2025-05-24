@@ -6,4 +6,34 @@ hesh: MY32Nj607jUvh2m03VgBftn
 api_key: 9aac422d-6819-4412-9fa7-a439ce308ca8
 api_url: https://45.82.15.213.sslip.io/MY32Nj607jUvh2m03VgBftn/api/v2/admin/user/
 SSL_VERIFY = True
----
+---user_data:
+user_data = {
+  "added_by_uuid": None,
+  "comment": "fdghgh",
+  "current_usage_GB": 0,
+  "ed25519_private_key": "string",
+  "ed25519_public_key": "string",
+  "enable": True,
+  "is_active": True,
+  "lang": "ru",
+  "last_online": None,
+  "last_reset_time": None,
+  "mode": "no_reset",
+  "name": "string",
+  "package_days": 10,
+  "start_date": "2025-05-24",
+  "telegram_id": 134250,
+  "usage_limit_GB": 10,
+  "uuid": None,
+  "wg_pk": "string",
+  "wg_psk": "string",
+  "wg_pub": "string"
+}
+---head: 
+head_data: {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Hiddify-API-Key": API_KEY
+        }
+---TG:
+token: 8075652827:AAEgPlTxnGrO4NcZ2KXBSWSxe_t3uccJtq4
